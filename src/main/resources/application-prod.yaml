@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: sugram
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: root123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+my_token:
+  key: shaxobiddindevjknsjnvfwefbnwujnosdwssedfwef
+  expire_time: 86400000
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql: TRACE
