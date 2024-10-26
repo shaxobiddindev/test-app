@@ -2,9 +2,9 @@ spring:
   application:
     name: sugram
   datasource:
-    url: jdbc:postgresql://dpg-csedi7m8ii6s7391iv30-a.oregon-postgres.render.com/post
+    url: jdbc:postgresql://dpg-cseecce8ii6s739257pg-a/post_db_zkm9
     username: post_user
-    password: UwsiBkT9gRI7nsxEMLZGg1BiXfUfnJN7
+    password: fNJxJUGs4mbCl88SIQ5D1a7UFFy25het
     driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
